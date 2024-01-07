@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:  768px)" href="css/mobile.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<title>Hotel Hann</title>
+</head>
+<body>
+	<header>
+		<nav id="navbar">
+			<div class="container">
+				<h1 id="logo">Hann Hotel</h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">Fasilitas</a></li>
+					<li><a href="contact.html" class="current">Pemesanan</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main id="main-contact">
+		<div class="container">
+			<section id="contact">
+				<h2><strong class="primary-text">Hubungi</strong> Kami</h2>
+				<p>Silahkan isi formulir kotak di bawah ini</p>
+				<form action="process.php">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email">
+					</div>
+					<div class="form-group">
+						<label for="message">Pesan</label>
+						<textarea name="message"></textarea>
+					</div>
+					<button type="submit" id="form-btn" class="btn">Mengirim Pesan</button>
+				</form>
+			</section>
+		</div>
+		<section id="informations">
+			<div class="container">
+				<div class="information-box">
+					<i class="fas fa-hotel fa-3x"></i>
+					<h3>Lokasi</h3>
+					<p>Hann Hotel</p>
+				</div>
+				<div class="information-box">
+					<i class="fas fa-phone fa-3x"></i>
+					<h3>Telepon</h3>
+					<p>(+62) 812-5555-1314</p>
+				</div>
+				<div class="information-box">
+					<i class="fas fa-envelope fa-3x"></i>
+					<h3>Email</h3>
+					<p>Hannhotel@gmail.com</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Hann Hotel © 2023, All Rights Reserved</p>
+	</footer>
+</body>
+</html>
